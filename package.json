@@ -1,7 +1,15 @@
 {
   "name": "nextjs-boilerplate",
+  "description": "📂 Just a quick template of setting up my NextJS projects",
+  "repository": "https://github.com/caiohenrique-developer/nextjs-boilerplate.git",
+  "bugs": {
+    "url": "https://github.com/caiohenrique-developer/nextjs-boilerplate/issues"
+  },
+  "author": "Caio Henrique <caiohenrique.developer@gmail.com> (https://github.com/caiohenrique-developer)",
   "version": "0.1.0",
+  "license": "MIT",
   "private": true,
+  "keywords": [],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
