@@ -22,9 +22,30 @@
         "react",
         "prettier",
 				"react-hooks",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "eslint-plugin-import-helpers"
     ],
     "rules": {
+      "import-helpers/order-imports": [
+        "warn",
+        {
+          "newlinesBetween": "always",
+          "groups": [
+            "/^react/",
+            "/^next/",
+            "module",
+            "/^@api/",
+            "/^@pages/",
+            "/^@components/",
+            "/^@hooks/",
+            "/^@assets/",
+            "/^@styles/",
+            "/^@utils/",
+            ["parent", "sibling", "index"]
+          ],
+          "alphabetize": { "order": "asc", "ignoreCase": true }
+        }
+      ],
       "react-hooks/rules-of-hooks": "error",
       // ESlint mostra erro caso as regras do Prettier forem violadas
       "prettier/prettier": "error",
