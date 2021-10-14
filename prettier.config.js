@@ -3,11 +3,11 @@ module.exports = {
   singleQuote: true,
   jsxSingleQuote: true,
   // adiciona (,) no final de um objeto que tiver várias linhas
-  trailingComma: "all",
+  trailingComma: 'all',
   // adiciona (;)
   semi: true,
   // para não adicionar (()) quando um arrow function tiver só um parâmetro
-  arrowParens: "always",
+  arrowParens: 'always',
   bracketSpacing: true,
-  quoteProps: "as-needed",
+  quoteProps: 'as-needed',
 };
